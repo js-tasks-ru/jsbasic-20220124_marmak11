@@ -3,4 +3,4 @@ function showSalary(users, age) {
   user =(user.map(item => `${item.name}, ${item.balance}`).join('\n'))
   return user
 }
-showSalary(users, age)
+showSalary(users, 40) 
